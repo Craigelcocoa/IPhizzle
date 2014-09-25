@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Pick teams</title>
+<link href="css/css-reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/green-styles.css" rel="stylesheet" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="mainWrapper">
+  <div class="titleBar">
+    	<h1>PICK TEAMS</h1>
+          <a href="#" class="divLink"><div class="backBtn"><img src="img/backBtn.png" width="28" height="20" alt=""/></div></a>
+    </div>
+    <div class="standAloneInstruction">Tick the players you want to add <br>
+to the game.</div>
+<div class="pickTeamsRow poolOdd">
+	<img src="img/defaultPlayer.jpg" /> 
+    <h3><span id="poolFirstName01">Faustino</span> <span id="poolFirstName01">Asprilla</span></h3><input type="checkbox">
+</div>
+
+<div class="pickTeamsRow poolEven">
+	<img src="img/defaultPlayer.jpg" /> 
+    <h3><span id="poolFirstName02">Nicky</span> <span id="poolFirstName02">Papavasiliou</span></h3><input type="checkbox">
+</div>
+
+<div class="pickTeamsRow poolOdd">
+	<img src="img/defaultPlayer.jpg" /> 
+    <h3><span id="poolFirstName03">Morten</span> <span id="poolFirstName03">Gamst-Pedersen</span></h3><input type="checkbox">
+</div>
+
+  <div class="noForm">
+   <div class="typeAttributeWrapper">
+<div class="numberTeams"><span class="standAloneInstruction">NUMBER OF TEAMS</span><input type="number" name="numberOfTeams" placeholder="2">
+</div>
+
+<select name="typeOfGame" title="Type of game" class="typeGame">
+  <option selected>Type of game</option>
+  <option>Random</option>
+  <option>Balanced</option>
+  <option>Attack vs Defence</option>
+  <option>Grafters vs Showboaters</option>
+</select>
+
+</div>
+
+
+    <input name="poolPickTeams" type="submit" class="submitBtn" id="poolPickTeams"  value="PLAY WITH PREVIOUS TEAMS"> 
+    
+    <input name="sharePool" type="submit" class="submitBtn subsequentBtn" id="sharePool"  value="GENERATE NEW TEAMS"> 
+    
+
+    
+    <br>
+  </div>
+    
+<br>
+
+</div>
+</div>
+</body>
+</html>
